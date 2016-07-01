@@ -1,8 +1,8 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
   "name": "MyTools",
   "description": "This extension is used with F@W, limited to EVRY employees.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "background": {
     "scripts": ["background.js"],
     "persistent": false
