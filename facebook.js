@@ -2,7 +2,7 @@ if($("#mytoolscontainer").length == 0) {
 
 	// Append field to banner
 	var banner = $("div[role='banner']");
-	banner.append("<div id='mytoolscontainer' style='display: none; background: #2f3542; padding: 10px;'><div id='mytoolsbox' style='margin-left: auto; margin-right: auto; width: 80%;'>Hello World</div></div>");
+	banner.parent().parent().append("<div id='mytoolscontainer' style='display: none; background: #2f3542; padding: 10px;'><div id='mytoolsbox' style='margin-left: auto; margin-right: auto; width: 80%;'>Hello World</div></div>");
 	 
 	// Duplicate home_icon button.
 	var dd = $("div[data-click='home_icon']");
