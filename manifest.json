@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
   "name": "MyTools",
-  "description": "This extension is used with F@W, limited to EVRY employees.",
-  "version": "1.0.2",
+  "description": "This extension is used with Facebook @ Workplace, limited to EVRY employees.",
+  "version": "1.0.3",
   "background": {
     "scripts": ["background.js"],
     "persistent": false
